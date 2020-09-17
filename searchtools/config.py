@@ -45,7 +45,7 @@ class Configuration:
                 ok = True
                 for key in data:
                     if 'elastic_documents_max_no' == key:
-                        self.elastic_documents_max_no = data[key]:
+                        self.elastic_documents_max_no = data[key]
                     elif 'elastic_documents' == key:
                         self.elastic_documents = data[key]
                     elif 'elastic_base_endpoint' == key:
