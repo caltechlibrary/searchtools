@@ -6,7 +6,7 @@
   "codeRepository": "https://github.com/caltechlibrary/searchtools",
   "issueTracker": "https://github.com/caltechlibrary/searchtools/issues",
   "license": "https://github.com/caltechlibrary/searchtools/blob/master/LICENSE",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0",
   "author": [
     {
       "@type": "Person",
@@ -16,7 +16,7 @@
       "email": "rsdoiel@library.caltech.edu",
       "@id": "https://orcid.org/0000-0003-0900-6903"
     }],
-  "developmentStatus": "active",
+  "developmentStatus": "concept",
   "downloadUrl": "https://github.com/caltechlibrary/searchtools/archive/master.zip",
   "keywords": [
     "software",

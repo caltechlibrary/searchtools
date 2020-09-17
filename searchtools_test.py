@@ -12,7 +12,7 @@ def test_logger():
     log = searchtools.Logger(os.getpid())
     msg = 'This is a log message'
     if __debug__: 
-        print(f'Expecting "{msg}" with a timestamp and pid prefix')
+        print(f'Expect "{msg}" with a timestamp and pid prefix')
         log.print(msg)
     s = log.sprint(msg)
     if not (msg in s):
@@ -37,11 +37,12 @@ def test_config():
     if not cfg.load_config(f_name):
         print(f'Failed to load {f_name}')
         ok = False
-    keys = [ "elastic_documents" ]
+    keys = [ "elastic_documents", "site_title", "organization" ]
     if not cfg.required(keys):
         print(f'Expected "{", ".join(keys)}", required = False')
+        print(cfg.toJSON())
         ok = False
-    print(f'Expecting warning about missing "beanstalk" on {f_name}')
+    print(f'Expect warning about missing "beanstalk" on {f_name}')
     keys = [ "beanstalk" ]
     expected = False
     value = cfg.required(keys)

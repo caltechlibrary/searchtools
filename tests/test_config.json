@@ -1,3 +1,5 @@
 {
-    "elastic_documents": "elastic-documents.json"
+    "elastic_documents": "elastic-documents.json",
+    "site_title": "This is a test",
+    "organization": "Caltech Library, DLD"
 }
