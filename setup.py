@@ -56,7 +56,7 @@ name = meta['name']
 REQUIRES_PYTHON = '>=3.7.0'
 
 # What packages are required for this module to be executed?
-REQUIRED = [ ]
+REQUIRED = [ "lunr", "elastic-app-search" ]
 
 # What packages are optional?
 EXTRAS = {}
