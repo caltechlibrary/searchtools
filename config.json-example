@@ -1,0 +1,21 @@
+{
+    "css": "https://repostiories.example.edu/collection/css/site.css",
+    "site_title": "EPrints Public View Collection Demo",
+    "organization": "Digital Library Development Demo",
+    "search_ui": {
+        "id": "id",
+        "href": "href",
+        "display_fields": [ "title", "href", "description", "year", "authors", "collection", "keywords", "subjects" ],
+        "aggregated_fields": [ "authors", "year", "collection" ],
+        "sort_fields": [ "year", "title" ]
+    },
+    "engine_type": "lunr",
+    "serialized_index": "htdocs/index.json",
+    "elastic_documents_max_no": 25,
+    "elastic_documents": "elastic_documents.json",
+    "elastic_base_endpoint": "https://LONG_HASH_ID.ent-search.us-west1.gcp.cloud.es.io",
+    "elastic_api_key": "private-LONG_HASH_SECERT",
+    "elastic_use_https": true,
+    "elastic_engine_name": "archives-search-demo"
+}
+

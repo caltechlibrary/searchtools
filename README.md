@@ -4,7 +4,7 @@ Searchtools
 This is a Python3 package for working with Elasticsearch and
 LunrJS services and indexes. It provides a uniform approach
 for our various library projects where one or both platforms
-maybe appropriate.
+are appropriate.
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)](https://choosealicense.com/licenses/bsd-3-clause)
 [![Latest release](https://img.shields.io/github/v/release/caltechlibrary/template.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/template/releases)

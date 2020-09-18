@@ -42,6 +42,15 @@ def test_config():
         print(f'Expected "{", ".join(keys)}", required = False')
         print(cfg.toJSON())
         ok = False
+    key_list = cfg.keys()
+    for key in key_list:
+        if not key in keys:
+            print(f'Expected key {key} in required keys {keys}')
+            ok = False
+    for key in keys:
+        if not key in key_list:
+            print(f'Expected key {key} in key list {keys}')
+            ok = False
     print(f'Expect warning about missing "beanstalk" on {f_name}')
     keys = [ "beanstalk" ]
     expected = False

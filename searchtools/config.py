@@ -32,6 +32,12 @@ class Configuration:
                 self.config[key] = data[key]
         return True                
 
+    def keys(self):
+        key_list = []
+        for key in self.config:
+            key_list.append(key)
+        return key_list
+
     def get(self, key, default = None):
         if key in self.config:
             return self.config[key]
